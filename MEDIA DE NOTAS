@@ -1,0 +1,37 @@
+Algoritmo "Media de notas"
+
+Var
+
+nota1: real
+nota2: real
+nota3: real
+nota4: real
+media: real
+
+Inicio
+escreval ("Digite a primeira nota")
+         leia (nota1)
+        escreval("Digite a segunda nota")
+         leia(nota2)
+        escreval("Digite a terceira nota")
+         leia(nota3)
+        escreval("Digite a quarta nota")
+         leia (nota4)
+
+        media <- (nota1+nota2+nota3+nota4)/4
+         escreval(" A média é:", media)
+
+        se media =10 entao
+         escreval("APROVADO, PARABÉNS JOGADOOOR!!!!")
+        senao
+
+        se media >=6 entao
+         escreval("APROVADO")
+
+         senao
+
+         escreval("REPROVADO")
+       fimse
+        fimse
+
+Fimalgoritmo
